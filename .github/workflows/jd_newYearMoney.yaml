@@ -49,3 +49,4 @@ jobs:
                   SYNCURL: jd_newYearMoney.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
+                  JDNY_SHARECODES: ${{ github.event.client_payload.JDNY_SHARECODES || secrets.JDNY_SHARECODES }}
